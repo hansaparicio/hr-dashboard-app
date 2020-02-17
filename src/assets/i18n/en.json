@@ -1,0 +1,11 @@
+{
+  "TALENT_PROFILE": {
+    "ACTIVE_MEMBER": "Active",
+    "BIRTHDAY": "Birthday",
+    "CITY": "City",
+    "GENDER": "Gender",
+    "PHONE_NUMBER": "Phone Number",
+    "STREET_ADDRESS": "Address",
+    "ZIP_CODE": "ZIP Code"
+  }
+}

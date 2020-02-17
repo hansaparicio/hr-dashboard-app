@@ -1,0 +1,22 @@
+.toolbar{
+  &__app-title--box {
+    margin: 0px;
+  }
+
+  &__app-title--wrapper {
+    padding: 15px 5px;
+  }
+}
+
+.sidenav{
+  &__wrapper--box {
+    min-width: 150px;
+    padding: 10px 5px;
+  }
+}
+
+.app{
+  &__main-section--box {
+    padding: 15px;
+  }
+}

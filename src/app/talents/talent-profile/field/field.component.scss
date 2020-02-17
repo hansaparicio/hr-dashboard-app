@@ -1,0 +1,10 @@
+.field{
+  &__wrapper--box{
+    margin: 15px;
+    border-bottom: 1px solid lightgray;
+  }
+  &__field-text--font{
+    color: gray;
+    font-weight: 500;
+  }
+}

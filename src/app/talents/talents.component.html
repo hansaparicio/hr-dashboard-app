@@ -1,0 +1,8 @@
+<mat-card fxLayout="row" fxLayoutAlign="start center" *ngFor="let talent of (talents$ | async)" (click)="gotToTalentProfileByEmail(talent.email)">
+  <div fxFlex="10">
+    <img src="assets/img/gravatar.jpg" alt="photo profile" class="talents__photo-field--box">
+  </div>
+  <span fxFlex="30">{{talent.name}}</span>
+  <span fxFlex="60">{{talent.email}}</span>
+</mat-card>
+

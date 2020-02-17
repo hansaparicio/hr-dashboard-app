@@ -1,0 +1,11 @@
+<div fxLayout="row" fxLayoutAlign="space-around stretch" fxLayoutGap="10px">
+  <mat-card fxLayout="column" fxLayoutAlign="space-around center">
+    <img src="assets/img/gravatar.jpg" alt="photo profile" class="talent-profile__photo--box">
+    <span class="mat-h1">{{(profile$ | async)?.name}}</span>
+    <span class="mat-subheading-2">{{(profile$ | async)?.email}}</span>
+  </mat-card>
+  <mat-card class="talent-profile__data--width" fxLayout="row wrap" fxLayoutAlign="space-between center" fxLayoutGap="10px">
+    <app-field *ngFor="let property of fieldsToShow | keyvalue" [field]="property.key" [value]="property.value"></app-field>
+  </mat-card>
+</div>
+

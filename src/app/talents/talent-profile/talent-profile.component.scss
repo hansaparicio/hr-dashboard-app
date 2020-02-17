@@ -1,0 +1,10 @@
+.talent-profile{
+  &__photo--box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  &__data--width > * {
+    flex: 30%;
+  }
+}
